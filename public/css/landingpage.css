@@ -1,0 +1,82 @@
+html{ 
+    position: relative;
+}
+.nav-link{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color :white !important;
+    margin-right: 10px;
+}
+.nav-link:hover{ 
+    color: #60bff3 !important;
+}
+.active > .nav-link { color: #60bff3 !important; 
+}
+#about .img-circle{ 
+    height: 370px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+#slide .carousel-item img{ 
+    padding-top: 90px;
+}
+.row p{ 
+    text-align: justify;
+    font-size: 18px;
+    color : rgb(70, 70, 70) ;
+}
+.row h1{ 
+    color: rgb(97, 97, 97) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table{ 
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+#informasi{ 
+    background-color: rgb(12, 24, 23) !important;
+    padding-bottom: 100px;
+    margin-top: 100px;
+    padding-top: 70px;
+}
+#informasi .row a{ 
+    color: white !important;
+    opacity: 80%;
+}
+#informasi .row a:hover{ 
+    color: rgb(116, 166, 240) !important;
+}
+#informasi .row h4{ 
+    color: white !important;
+    margin-bottom: 20px;
+    text-decoration-line:underline;
+}
+.alamat p{ 
+    color: white !important;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.alamat h3{ 
+    color: white !important;
+}
+.kontak { 
+    line-height: 1.0;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(10, 10, 10);
+    padding-top: 20px; 
+}
+footer .row p{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
